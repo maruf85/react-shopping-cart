@@ -1,0 +1,12 @@
+.nav__cart {
+    display: inline-block;
+
+    &__badge {
+        position: absolute;
+        top: 20px;
+        right: 18px;
+        padding: 2px 8px;
+        color: black;
+        font-size: 14px;;
+    }
+}

@@ -1,0 +1,36 @@
+.product__card {
+    border-color: #fff !important;
+
+    &__body {
+        padding: 8px 0 !important;
+    }
+
+    &__text {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+}
+
+.summary__card {
+    border: 1px solid darken($color: $color-grey, $amount: 10);
+    padding: 20px;
+    text-transform: uppercase;
+
+    &__title {
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    &__item {
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    &__item:last-child {
+        margin-top: 0;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
